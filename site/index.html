@@ -4,33 +4,45 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Links</title>
+	<style>
+		h1 {
+			color: rebeccapurple;
+			text-align: center;
+			font-style: italic;
+		}
+		.thongtin {
+			color: blue;
+			background-color: lightyellow;
+			font-size: 20px;
+		}
+		h3 {
+			color: blueviolet;
+			text-align: left;
+		}
+		.backtotop,nav {
+			color: palevioletred;
+			font-size: 30px;
+			font-style: italic;
+			font-weight: bold;
+			text-align: center;
+
+		}
+	
+	</style>
 </head>
 <body>
-	<h1 id="top">Thuc hanh link va img</h1>
-	<ol>
-		<li><a href="#immage1">Immage 1</a></li>
-		<li><a href="#immage2">Immage 2</a></li>
-		<li><a href="#immage3">immage 3</a></li>
-	</ol>
-	<div>
-		<section id="immage1">
-		<h3>Immage 1</h3>
-	    <img src="https://hoanghamobile.com/tin-tuc/wp-content/webp-express/webp-images/uploads/2023/08/anh-phat-dep-lam-hinh-nen-62.jpg.webp" width="400" height="235" alt="hinh anh tuong anh-phat-dep-lam-hinh-nen-62">
-	    <div>bla bla</div>
-	    </section>
-	    <section id="immage2">
-	    	<h3>Immage 2</h3>
-	    	<img src="https://baothainguyen.vn/file/oldimage/baothainguyen/UserFiles/image/d1(21).jpg" width="400" height="250" alt="baothainguyen">
-	    	<div>bla bla</div>
-	    </section>
-	    <section id="immage3">
-	    	<h3>Immage 3</h3>
-	    	<img src="https://bazantravel.com/cdn/medias/uploads/52/52527-ban-do-han-quoc16-670x446.jpg" width="400" height="250" alt="hoa anh dao">
-	    	<div>bla bla</div>
-	    </section>
-	</div>
-	<div>
-		Back to top: <a href="#top">back top top</a>
-	</div>
+	<h1 id="top">bat dau voi CSS</h1>
+	<section>
+		<section class="thongtin">mot thong tin gi do khong co ich</section>
+		<h3>1. de muc lon</h3>
+		<p>In summary, we spoke about the syntax of simple CSS selectors. We spoke about the element selector, the class selector, that you remember to define with a dot right in front of the name, without the space. And the id selector, that you can find with a pound sign, right before the value of the id and the HTML page, again, without the space in between. Next, we're going to talk about combining selectors to create a more targeted selection within the document object model. CSS selectors are used to determine which HTML element, or set of elements, to apply the CSS declarations to. The browser uses its selector API to traverse the DOM or Document Object Model, and pick out the elements matching the selector. Now crafting a selector is a great skill to have and not only for styling using CSS. That's because a lot of JavaScript libraries out there use the browser selector API to attach behavior and data to HTML elements. Much in the same way that CSS applies style to those elements. In this lecture, we're going to talk about three different types of selectors, element, class, and id selector.</p>
+		<section class="thongtin">lai la mot thong tin gi do khong co ich</section>
+		<h3>2. de muc lon</h3>
+		<p>In summary, we spoke about the syntax of simple CSS selectors. We spoke about the element selector, the class selector, that you remember to define with a dot right in front of the name, without the space. And the id selector, that you can find with a pound sign, right before the value of the id and the HTML page, again, without the space in between. Next, we're going to talk about combining selectors to create a more targeted selection within the document object model. CSS selectors are used to determine which HTML element, or set of elements, to apply the CSS declarations to. The browser uses its selector API to traverse the DOM or Document Object Model, and pick out the elements matching the selector. Now crafting a selector is a great skill to have and not only for styling using CSS. That's because a lot of JavaScript libraries out there use the browser selector API to attach behavior and data to HTML elements. Much in the same way that CSS applies style to those elements. In this lecture, we're going to talk about three different types of selectors, element, class, and id selector.</p>
+		<div class="backtotop">click vao buc tranh de quay tro ve</div>
+		<nav>
+			<a href="#top"><img src="https://i.pinimg.com/236x/6d/38/13/6d38136429fa84b7f4011209e74bdc8c.jpg" width="350" height="250" alt="hinh anh vui nhon"></a>
+		</nav>
+	</section>
 </body>
 </html>
